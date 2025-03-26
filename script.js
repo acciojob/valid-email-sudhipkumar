@@ -8,3 +8,9 @@ function validEmail(str) {
 // Do not change the code below.
 const str = prompt("Enter an email address.");
 alert(validEmail(str));
+
+// validEmail('abc@example.com') // returns true
+// validEmail('xyz@abc.com.in') // returns true
+// validEmail('john.doe@com.') // returns false
+// validEmail('@example.com') // returns false
+// validEmail('') // returns false
